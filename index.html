@@ -13,10 +13,10 @@
 <meta property="og:description" content="WhatsApp, Instagram e chat do site com CRM, automações e agentes de IA para qualquer negócio. Seja afiliado e ganhe comissão recorrente.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=2">
 </head>
 <body>
-<div style="width: 100%; min-width: 320px; background: #f6f6f7; overflow: hidden">
+<div style="width: 100%; min-width: 320px; background: #f6f6f7; overflow-x: hidden; overflow-x: clip">
 
 <!-- ANNOUNCEMENT -->
 <div class="announce" style="background: #18181b; color: #e4e4e7; font-size: 14px; text-align: center; padding: 11px 20px">
@@ -24,7 +24,7 @@
 </div>
 
 <!-- NAV -->
-<header style="background: #ffffff; border-bottom: 1px solid #ececef">
+<header style="background: #ffffff; border-bottom: 1px solid #ececef; position: sticky; top: 0; z-index: 60">
 <nav class="pad" aria-label="Principal" style="max-width: 1200px; margin: 0 auto; padding: 16px 32px; display: flex; align-items: center; justify-content: space-between; gap: 24px">
 <a href="#topo" aria-label="ManyConvert — início" style="display: flex; align-items: center; text-decoration: none">
 <img src="assets/img/logo-manyconvert.svg" alt="ManyConvert" style="height: 42px; width: auto; display: block">
@@ -35,12 +35,28 @@
 <a href="#como-funciona" style="color: #3f3f46; text-decoration: none">Como funciona</a>
 <a href="#afiliados" style="color: #3f3f46; text-decoration: none">Afiliados</a>
 <a href="#faq" style="color: #3f3f46; text-decoration: none">FAQ</a>
+<a href="https://manyconvert.com/blog/" style="color: #3f3f46; text-decoration: none">Blog</a>
 </div>
 <div style="display: flex; align-items: center; gap: 10px">
 <a class="navcta" href="#contato" style="color: #111114; text-decoration: none; font-size: 15px; font-weight: 600; padding: 12px 14px">Entrar</a>
 <a class="btn" href="#contato" style="background: #530477; color: #ffffff; text-decoration: none; font-weight: 700; font-size: 15px; padding: 12px 20px; border-radius: 10px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Teste grátis</a>
+<button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-mobile"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
 </div>
 </nav>
+<div class="menu-mobile" id="menu-mobile">
+<nav aria-label="Menu do celular">
+<a href="#plataforma">Plataforma</a>
+<a href="#segmentos">Segmentos</a>
+<a href="#como-funciona">Como funciona</a>
+<a href="#afiliados">Afiliados</a>
+<a href="#faq">FAQ</a>
+<a href="https://manyconvert.com/blog/">Blog</a>
+<div class="menu-mobile-cta">
+<a class="btn menu-mobile-entrar" href="#contato">Entrar</a>
+<a class="btn menu-mobile-teste" href="#contato">Teste grátis</a>
+</div>
+</nav>
+</div>
 </header>
 
 <!-- HERO -->
@@ -636,6 +652,6 @@
 </footer>
 
 </div>
-<script src="assets/js/main.js" defer></script>
+<script src="assets/js/main.js?v=2" defer></script>
 </body>
 </html>

@@ -141,6 +141,29 @@ var CONFIG = {
     }, 1300);
   }
 
+  /* ---------- Menu do celular ---------- */
+  var burger = document.getElementById('burger');
+  var menuMobile = document.getElementById('menu-mobile');
+  function fechaMenu() {
+    if (!menuMobile || !burger) return;
+    menuMobile.classList.remove('is-open');
+    burger.setAttribute('aria-expanded', 'false');
+    burger.setAttribute('aria-label', 'Abrir menu');
+  }
+  if (burger && menuMobile) {
+    burger.addEventListener('click', function () {
+      var aberto = menuMobile.classList.toggle('is-open');
+      burger.setAttribute('aria-expanded', aberto ? 'true' : 'false');
+      burger.setAttribute('aria-label', aberto ? 'Fechar menu' : 'Abrir menu');
+    });
+    var linksMenu = menuMobile.querySelectorAll('a');
+    for (var m = 0; m < linksMenu.length; m++) linksMenu[m].addEventListener('click', fechaMenu);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' || e.keyCode === 27) fechaMenu();
+    });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1060) fechaMenu(); });
+  }
+
   /* ---------- Parallax ---------- */
   if (!reduceMotion) {
     var pEls = Array.prototype.slice.call(document.querySelectorAll('[data-speed]'));
