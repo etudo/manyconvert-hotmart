@@ -42,42 +42,42 @@ var CONFIG = {
   /* ---------- Seletor de segmentos ---------- */
   var SEGMENTS = {
     ecom: {
-      img: 'assets/img/ecommerce.jpg', alt: 'Dona de loja respondendo clientes no celular',
+      img: 'assets/img/ecommerce.webp', alt: 'Empreendedora respondendo clientes no celular em um centro de distribuição',
       title: 'Recupere carrinhos e aumente a recompra',
       desc: 'Integração nativa com VTEX, Shopify, Nuvemshop, Tray, WooCommerce e Magazord para vender mais pelo WhatsApp.',
       uses: ['Recuperação de carrinhos abandonados com cupom personalizado', 'Avisos automáticos de Pix, boleto e rastreio', 'Campanhas de recompra segmentadas por comportamento'],
       business: 'Loja Aurora', initials: 'LA', q: 'Ainda tem o tênis no 39?', a: 'Tem sim! Deixei no seu carrinho com 10% OFF até hoje.'
     },
     saude: {
-      img: 'assets/img/saude.jpg', alt: 'Recepcionista de clínica confirmando consultas pelo celular',
+      img: 'assets/img/saude.webp', alt: 'Profissional de clínica confirmando consulta pelo celular na recepção',
       title: 'Agenda cheia e menos faltas',
       desc: 'Pacientes marcam, confirmam e remarcam consultas pelo WhatsApp, a qualquer hora, sem sobrecarregar a recepção.',
       uses: ['Agendamento e confirmação automática de consultas', 'Lembretes na véspera para reduzir faltas', 'Pós-atendimento e pesquisa de satisfação'],
       business: 'Clínica Vida', initials: 'CV', q: 'Preciso remarcar minha consulta.', a: 'Claro! Tenho quinta às 14h ou sexta às 9h30. Qual prefere?'
     },
     edu: {
-      img: 'assets/img/educacao.jpg', alt: 'Estudante conversando com a escola pelo celular',
+      img: 'assets/img/educacao.webp', alt: 'Estudante conversando com a escola pelo celular no pátio',
       title: 'Mais matrículas, menos leads esquecidos',
       desc: 'Escolas, cursos e infoprodutores qualificam interessados, tiram dúvidas e fecham matrículas no automático.',
       uses: ['Qualificação de leads de campanhas e lançamentos', 'Recuperação de Pix e boletos não pagos', 'Onboarding e engajamento de alunos'],
       business: 'Escola Nova Rota', initials: 'NR', q: 'O curso tem certificado?', a: 'Tem sim, e a turma fecha no domingo. Quer o link com parcelamento?'
     },
     imob: {
-      img: 'assets/img/imobiliaria.jpg', alt: 'Corretor de imóveis atendendo um cliente pelo celular',
+      img: 'assets/img/imobiliaria.webp', alt: 'Corretora de imóveis apresentando opções no celular em um escritório',
       title: 'Leads qualificados direto para o corretor',
       desc: 'A IA entende o que o cliente procura, sugere imóveis e agenda visitas. O corretor recebe o lead pronto.',
       uses: ['Qualificação por região, faixa de preço e perfil', 'Envio de imóveis e agendamento de visitas', 'Distribuição automática de leads entre corretores'],
       business: 'Lar Imóveis', initials: 'LI', q: 'Procuro apartamento de 2 quartos no Centro.', a: 'Separei 4 opções no seu perfil. Posso agendar visitas no sábado?'
     },
     serv: {
-      img: 'assets/img/servicos.jpg', alt: 'Consultora mostrando uma conversa no celular',
+      img: 'assets/img/servicos.webp', alt: 'Consultora mostrando uma conversa no celular em um escritório',
       title: 'Orçamentos rápidos e follow-up que não falha',
       desc: 'Agências, consultorias e prestadores de serviço respondem na hora, organizam propostas e não perdem oportunidades.',
       uses: ['Orçamentos e propostas direto na conversa', 'Follow-up automático de propostas em aberto', 'Funil de vendas por etapa no CRM'],
       business: 'Studio Prisma', initials: 'SP', q: 'Quanto custa o plano mensal de vocês?', a: 'Depende do escopo! Posso fazer 3 perguntas rápidas e já te envio a proposta?'
     },
     varejo: {
-      img: 'assets/img/varejo.jpg', alt: 'Dono de cafeteria respondendo um cliente pelo celular',
+      img: 'assets/img/varejo.webp', alt: 'Cliente com sacolas de compras no shopping consultando o celular',
       title: 'Atendimento padronizado em todas as unidades',
       desc: 'Centralize o atendimento de várias lojas com números, filas e relatórios por unidade.',
       uses: ['Múltiplos números e equipes por unidade', 'Promoções segmentadas por região', 'Consulta de estoque e reserva para retirada'],
